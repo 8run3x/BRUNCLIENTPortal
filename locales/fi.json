@@ -1,0 +1,8 @@
+{
+  "welcome": "Tervetuloa",
+  "login_prompt": "Kirjaudu sisään",
+  "dashboard": "Hallintapaneeli",
+  "role_admin": "Ylläpitäjä",
+  "role_worker": "Työntekijä",
+  "role_client": "Asiakas"
+}

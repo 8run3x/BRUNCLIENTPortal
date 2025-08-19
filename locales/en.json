@@ -1,0 +1,8 @@
+{
+  "welcome": "Welcome",
+  "login_prompt": "Please log in",
+  "dashboard": "Dashboard",
+  "role_admin": "Administrator",
+  "role_worker": "Worker",
+  "role_client": "Client"
+}

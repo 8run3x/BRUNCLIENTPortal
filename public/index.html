@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Client Portal</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="login-box">
+    <h1 id="welcome"></h1>
+    <form method="POST" action="/login">
+      <label>Username:
+        <input name="username" />
+      </label>
+      <label>Password:
+        <input type="password" name="password" />
+      </label>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+  <script>
+    const lang = new URLSearchParams(window.location.search).get('lang') || 'en';
+    fetch('/i18n?lang=' + lang).then(r => r.json()).then(dict => {
+      document.getElementById('welcome').textContent = dict.welcome;
+    });
+  </script>
+</body>
+</html>

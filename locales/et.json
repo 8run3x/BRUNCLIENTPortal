@@ -1,0 +1,8 @@
+{
+  "welcome": "Tere tulemast",
+  "login_prompt": "Palun logi sisse",
+  "dashboard": "Töölaud",
+  "role_admin": "Administraator",
+  "role_worker": "Töötaja",
+  "role_client": "Klient"
+}
